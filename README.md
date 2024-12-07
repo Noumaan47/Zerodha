@@ -1,4 +1,7 @@
+
 Zerodha Clone
+
+Project Link: https://zerodha.netlify.app/
 
 Zerodha is India's largest and most popular discount brokerage platform, established in 2010 by Nithin Kamath. It revolutionized the Indian stock market by introducing a flat-fee brokerage model, where users pay zero brokerage for equity delivery trades and a nominal flat fee of ₹20 (or 0.03%, whichever is lower) per trade for intraday and other segments.
 
