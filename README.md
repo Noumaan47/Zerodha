@@ -3,49 +3,36 @@ Zerodha Clone
 
 Project Link: https://zerodha.netlify.app/
 
-Zerodha is India's largest and most popular discount brokerage platform, established in 2010 by Nithin Kamath. It revolutionized the Indian stock market by introducing a flat-fee brokerage model, where users pay zero brokerage for equity delivery trades and a nominal flat fee of ₹20 (or 0.03%, whichever is lower) per trade for intraday and other segments.
+A fully functional clone of the Zerodha trading platform designed for educational and learning purposes. This project replicates the key features of Zerodha, such as trading, portfolio management, and analytics, while offering opportunities to explore modern web technologies, APIs, and financial integrations.
 
-Key Features:
+* Features *
+* 
+1. User Authentication:
+Secure login and registration using JWT/Session tokens.
+Two-factor authentication simulation (optional).
 
-Kite: A powerful, web and mobile-based trading platform with advanced charting tools, intuitive UI, and a seamless trading experience.
+2. Trading Dashboard:
+Real-time market data with WebSocket integration.
+Buy/sell functionality for equities, commodities, and derivatives.
+Interactive stock charts with technical indicators.
 
-Console: A back-office dashboard for detailed analytics, reports, and portfolio tracking.
+3. Portfolio Management:
+Track investments, profit/loss, and portfolio performance.
+Detailed transaction history.
 
-Coin: A direct mutual fund platform that enables investment without commissions.
+4. Market Analytics:
+Live stock price updates.
+Market news and trends (using financial APIs like Alpha Vantage or Yahoo Finance).
 
-Varsity: An educational platform offering free modules and resources on trading, investing, and financial markets.
+5. Simulated Mutual Funds (Optional):
+ Feature to invest in and track mutual fund portfolios.
+  
+6. Mobile Responsiveness: Fully responsive UI for seamless use on desktop and mobile devices.
 
-Smallcase: A product integrated with Zerodha that allows thematic and model-based portfolio investments.
-
-Streak: A tool for algorithmic trading and strategy backtesting, designed for traders without coding knowledge.
-
-Sensibull: An options trading platform providing tools for beginners and advanced traders.
-
-
-Achievements:
-
-Largest Retail Stockbroker: Zerodha handles over 10 million clients, contributing to a significant portion of India's daily trading volume.
-
-Technology-driven Growth: It is known for its innovative use of technology, offering stable, fast, and scalable trading platforms.
-
-Bootstrapped Success: Zerodha operates without external funding, maintaining profitability since inception.
-
-Awards: Recognized for its transparency and service, winning several industry accolades for excellence in financial technology.
-
-Services Offered:
-
-Equity trading (delivery and intraday)
-
-Derivatives trading (futures and options)
-
-Currency and commodity trading
-
-Direct mutual funds via Coin
-
-Bonds and government securities
-
-Portfolio management and analytics
-
-With its mission to make trading and investing accessible and cost-effective, Zerodha has democratized stock market participation in India, empowering retail investors with technology, education, and affordability.
-
+* Tech Stack *
+Frontend: React.js, Redux, TailwindCSS/Bootstrap, Chart.js/D3.js for charts.
+Backend: Node.js, Express.js, or Django for APIs.
+Database: MongoDB, MySQL, or PostgreSQL for storing user data and transactions.
+APIs: Alpha Vantage, Yahoo Finance, or any other market data APIs for fetching live stock data.
+Authentication: JWT or OAuth for secure user login.
 
