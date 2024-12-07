@@ -6,7 +6,6 @@ Project Link: https://zerodha.netlify.app/
 A fully functional clone of the Zerodha trading platform designed for educational and learning purposes. This project replicates the key features of Zerodha, such as trading, portfolio management, and analytics, while offering opportunities to explore modern web technologies, APIs, and financial integrations.
 
 * Features *
-* 
 1. User Authentication:
 Secure login and registration using JWT/Session tokens.
 Two-factor authentication simulation (optional).
